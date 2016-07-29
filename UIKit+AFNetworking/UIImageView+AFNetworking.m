@@ -71,7 +71,7 @@
         _af_defaultImageCache = [[AFImageCache alloc] init];
 
         [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationDidReceiveMemoryWarningNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * __unused notification) {
-            [_af_defaultImageCache removeAllObjects];
+            //[_af_defaultImageCache removeAllObjects];
         }];
     });
 
